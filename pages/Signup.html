@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="css/signupStyle.css">
+	
+	<title>Sign up - Riwaj</title>
+</head>
+
+<body>
+
+<!-- Main container of the page -->
+	<div class="container mt-5 mb-5">
+		<div class="row">
+
+			<div class="col-sm-0 col-md-2 col-lg-2  text-center">
+				<!-- 1st column -->
+				<!-- this column is left blank so that our main column is in middle -->
+				<!-- Not for use! -->
+			</div>
+
+			<div class="col-sm-8 col-md-8 col-lg-8 middle text-center">
+				<!-- middle column or sub container-->
+				
+				<form class="form">
+					<img class="imgg" src="../assets/logo/logo2.png"> <!--Logo -->
+						
+					<div class="heading">
+						<h2>Create Account</h2>  
+					</div>
+					
+					<!-- Row 1-->
+					<div class="row">
+					
+						<!--First Name -->
+						<div class="col-sm-4 col-md-4 col-lg-4">
+							<input class="form-control" type="text" placeholder="First Name">
+						</div>
+
+						<!-- Last Name -->
+						<div class="col-sm-4 col-md-4 col-lg-4">
+							<input class="form-control" type="text" placeholder="Last Name">
+						</div>
+						
+						<!-- Date of birth-->
+						<div class="col-sm-4 col-md-4 col-lg-4">
+							<input class="form-control" type="Date" placeholder="Date of Birth">
+						</div>
+
+					</div> <!-- Ending First Row-->
+					<!----------------------->
+					<!-- Row 2 -->
+					<div class="row">
+					
+						<!-- Phone number -->
+						<div class="col-sm-4 col-md-4 col-lg-4">
+							<input class="form-control" type="tel" pattern="\+92-[3-9][0-9]{2}-[0-9]{7}" placeholder="Phone Number">
+						</div>
+					
+						<!--Email -->
+						<div class="col-sm-8 col-md-8 col-lg-8">
+							 <input class="form-control" type="email" placeholder="Email">
+						</div>
+					</div> <!--Ending Row 2 -->
+					<!----------------------->
+					<!-- Row 3 -->
+					<div class="row">
+						
+						<!-- Address-->
+						<div class="col-sm-8 col-md-8 col-lg-8">
+							 <input class="form-control" type="text" placeholder="Address">
+						</div>
+					
+						<!-- Country-->
+						<div class="col-sm-4 col-md-4 col-lg-4">
+							<input class="form-control" type="text" placeholder="Country">
+						</div>						
+					</div> <!-- Ending Row 3-->
+					<!----------------------->
+					
+					<!-- Row 4-->
+					<div class="row">
+						
+						<!-- Province-->
+						<div class="col-sm-4 col-md-4 col-lg-4">
+							<input class="form-control" type="text" placeholder="Province/State">
+						</div>
+						
+						<!-- City-->
+						<div class="col-sm-4 col-md-4 col-lg-4">
+							<input class="form-control" type="text" placeholder="City/Town">
+						</div>
+						
+						<!-- Postal Code -->
+						<div class="col-sm-4 col-md-4 col-lg-4">
+							<input class="form-control" type="text" pattern="[0-9]*" placeholder="Postal Code/Zip">
+																	<!-- Pattern means input restriction-->
+						</div>
+						
+					</div> <!-- Ending Row 4-->
+					<!----------------------->
+					
+					<!-- Row 5-->
+					<div class="row"> 
+					
+						<!-- Password-->
+						<div class="col-sm-6 col-md-6 col-lg-6">
+							<input class="form-control" type="password" placeholder="Password">
+						</div>
+						
+						<!--Confrim Password -->
+						<div class="col-sm-6 col-md-6 col-lg-6">
+							<input class="form-control" type="Password" pattern="[0-9]*" placeholder="Confirm Password">
+						</div>
+					</div> <!-- Ending Row 5-->
+					<!----------------------->
+					
+					<!-- Row 6-->
+					<div class="row"> 
+							<!-- Button to create the account-->
+							<input  type="submit" class="mt-1 col-sm-12 col-md-12 col-lg-12 button btn-primary" value="Create Account">
+					</div> <!-- Ending Row 6-->
+					<!----------------------->
+					
+					<!-- Row 7-->
+					<div class="row mt-2"> <!--margin top is set two to increase the distance between buttons -->
+					
+						<!-- button like simple text to navigate back to the sign in page-->
+						<div class="col-sm-12 col-md-12 col-lg-12">
+						<a href="Login.html" style="color:#36454F; text-decoration: none;">
+						 	<!-- adding link and styling to remove the default styling of links-->
+							<p class="" >SIGN IN</p> 
+						</a>
+						</div>
+						
+					</div>  <!-- Ending Row 7 -->
+					
+				</form>	<!-- Ending the registration form-->
+				<!---------------------------------------------------------->
+				
+			</div> <!-- Ending the main Column-8 -->
+			<!---------------------------------------------------------------------------->
+
+			<div class="col-sm-0 col-md-2 col-lg-2  text-center">
+				<!-- 2nd column -->
+				<!-- Not for use! -->
+			</div>
+		</div> <!-- Ending the main row -->
+	</div> <!-- Ending the main container -->
+</body>
+
+</html>

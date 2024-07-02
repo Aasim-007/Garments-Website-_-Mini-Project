@@ -1,0 +1,157 @@
+/* FOOTER CSS*/
+
+.link {
+    text-decoration: none;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.subscribe-bar {
+    background-color: transparent;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+.subscribe-input {
+    border: none;
+    outline: none;
+    padding: 8px;
+    font-size: 14px;
+    width: 200px;
+    color: #fff;
+    background-color: transparent;
+    margin-right: 10px;
+    border-bottom: 1px solid transparent;
+}
+
+.subscribe-input:focus {
+    border-bottom: 1px solid #fff;
+}
+
+.subscribe-button {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #fff;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 15px;
+}
+
+.subscribe-button:hover {
+    background-color: #808080;
+}
+
+.footer-column {
+    padding: 20px;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    margin-top: -10px;
+    margin-bottom: -20px;
+}
+
+.contact-info img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 8px;
+    color: #000000;
+    transition: color 0.3s ease;
+    white-space: nowrap;
+}
+
+.footer-links li:hover {
+    color: #cfb38b;
+}
+
+.contact-form {
+    background-color: transparent;
+    border: 1px solid #080808;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 20px;
+    color: #000000;
+}
+
+.form-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #080808;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #000000;
+    outline: none;
+}
+
+.form-input:focus {
+    border: 1px solid #fff;
+}
+
+.form-textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #080808;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #000000;
+    outline: none;
+}
+
+.form-textarea:focus {
+    border: 1px solid #fff;
+}
+
+.form-submit {
+    width: 100%;
+    background-color: #080808;
+    color: #ffffff;
+    border: 1px solid #080808;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 15px;
+}
+
+.bttop {
+    color: #000000;
+}
+
+.bttop:hover {
+    color: #cfb38b;
+}
+

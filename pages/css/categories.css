@@ -1,0 +1,68 @@
+/* PRODUCT CSS HERE */
+        .product {
+            margin: 20px 0;
+            padding: 10px;
+            text-align: center;
+            position: relative;
+            
+        }
+
+        .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+
+        .product .hover-image {
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+
+        .product:hover img {
+            transform: scale(1); /* Zoom-in effect on hover */
+        }
+
+        .product:hover .hover-image {
+            display: block;
+            transform: scale(0.95); /* Zoom-in effect on hover */
+        }
+
+        .product-info {
+            margin-top: 10px;
+        }
+
+        /* Add your own styling for the button and other elements */
+        .more-btn {
+            background-color: #00000000;
+            color: #000000;
+            padding: 8px 16px;
+            padding-left: 35px;
+            border: 1px solid #000000;
+			border-radius: 5px;
+			border-width:100%;
+            text-decoration: none;
+            transition: background-color 0.3s;
+            background-image: url('../../assets/icons/bag-b.png'); /* Add the path to your logo image */
+            background-size: 20px 20px; /* Set the size of your logo */
+            background-repeat: no-repeat; /* Prevent the logo from repeating */
+            background-position: 10px center;
+        }
+
+        .more-btn:hover {
+            background-color: #000000;
+            color: #ffffff;
+        }
+        
+        .center-container {
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    text-align: center; /* Align text in the center */
+}
