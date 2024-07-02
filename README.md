@@ -1,4 +1,4 @@
-# Garments-Website_Mini-Projec
+# Garments-Website_Mini-Project
 # Rivaj Webstore
 
 ## Introduction
